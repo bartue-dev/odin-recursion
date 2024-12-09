@@ -40,6 +40,7 @@ function merge(left, right) {
   return result;
 }
 
-const unsortedArray = [3, 2, 1, 13, 8, 5, 0, 1];
-console.log('unsorted array: ', unsortedArray);
-console.log('sorted array: ', mergeSort(unsortedArray));
+const unsortedArray1 = [3, 2, 1, 13, 8, 5, 0, 1];
+const unsortedArray2 = [105, 79, 100, 110];
+console.log('unsorted array: ', unsortedArray1, '\n', unsortedArray2);
+console.log('sorted array: \n',  mergeSort(unsortedArray1), '\n', mergeSort(unsortedArray2));
